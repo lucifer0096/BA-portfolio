@@ -1,0 +1,16 @@
+# The 151MB Airbnb dataset stays on Git LFS (GitHub's plain-git limit is 100MB).
+# Pattern uses a glob: gitattributes splits pattern/attributes on whitespace,
+# so the spaces in "Airbnb Listing Analysis" cannot appear literally.
+Airbnb*/Data/Listings.csv filter=lfs diff=lfs merge=lfs -text
+
+# Everything else lives directly in Git (LFS removed). -text keeps data bytes
+# exact on every platform (no EOL conversion).
+*.pbix -text
+*.pbit -text
+*.sas7bdat -text
+*.sas7bcat -text
+*.xlsx -text
+*.xls -text
+*.csv -text
+*.RData -text
+*.rdata -text
