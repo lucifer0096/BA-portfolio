@@ -1,11 +1,10 @@
 # SaaS Customer Churn & Revenue Retention
 
-> **Note:** This is a guided, step-by-step build project. We will go end to end:
-> business framing → data understanding → EDA → churn analysis → retention/LTV → dashboard → recommendations.
+End-to-end business analytics case study: customer churn, revenue impact, and engagement for a SaaS subscription business.
 
 ## Business Context
 
-<!-- TODO: Describe the fictional/real SaaS company, product, customer segment. -->
+<!-- TODO: Describe the SaaS company, product, customer segment. -->
 
 ## Objective
 
@@ -27,12 +26,23 @@
 
 ## Approach
 
-- [ ] Data collection / understanding
-- [ ] Exploratory data analysis (EDA)
-- [ ] Churn analysis
+- [x] Data collection / understanding
+- [x] Exploratory data analysis (EDA)
+- [x] Churn analysis
 - [ ] Retention / LTV analysis
 - [ ] Dashboard / deliverables
 - [ ] Recommendations
+
+## Findings
+
+- **Churn rate:** 9.66% (408 / 4,222 accounts)
+- **Revenue impact:** Churned accounts accounted for ~$1.18M MRR / ~$14.1M ARR (10.4% of revenue)
+- **Engagement:** Usage-based churn showed no strong monotonic relationship; satisfaction/ticket metrics were flat at group level
+- **Customer value:** Churned accounts averaged slightly higher MRR ($2,890) than retained ($2,664)
+
+## Calculations
+
+Full backend calculations documented in [CALCULATIONS.md](CALCULATIONS.md).
 
 ## Tools
 
@@ -42,7 +52,7 @@
 
 ## Deliverables
 
-- [ ] Analysis notebook / script
+- [x] Analysis notebook / script
 - [ ] Dashboard
 - [ ] Executive summary
 
