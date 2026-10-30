@@ -56,6 +56,13 @@ Full backend calculations documented in [CALCULATIONS.md](CALCULATIONS.md).
 - [ ] Dashboard
 - [ ] Executive summary
 
+## Recommendations
+
+- [ ] Develop onboarding / engagement interventions for low-usage cohorts
+- [ ] Implement win-back campaigns for high-value churned accounts
+- [ ] Evaluate plan-tier optimization based on upgrade/downgrade patterns
+- [ ] Set proactive alerts for satisfaction / ticket / usage thresholds
+
 ## License
 
 This repository is licensed under the [MIT License](../LICENSE).
