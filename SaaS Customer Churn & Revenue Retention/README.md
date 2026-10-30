@@ -19,6 +19,12 @@
 4. What is the revenue impact of churn?
 5. What retention strategies can be recommended?
 
+## Dataset
+
+- **Source:** Kaggle — "SaaS Subscription & Churn Analysis Clean Dataset" (tejaschopade)
+- **Focus:** SaaS subscription + churn analysis
+- **Note:** Cleaned dataset, filtered to specific years (2023–2024)
+
 ## Approach
 
 - [ ] Data collection / understanding
